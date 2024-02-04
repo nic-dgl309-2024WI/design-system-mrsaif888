@@ -22,3 +22,43 @@ a{
     text-decoration: none;
     color: var(--clr-primary);
 }
+.header{
+   
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+
+}
+.menu a{
+    display: block;
+   
+}
+.side-menu a{
+    display: block;
+
+   
+}
+/* .side-menu{
+    max-height: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} */
+.toggle-menu a{
+    display: block;
+    
+}
+.side-menuu{
+    display: none;
+}
+.menu a:hover{
+    background-color: var(--clr-secondary);
+}
+.nav{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
