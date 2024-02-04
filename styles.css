@@ -93,3 +93,6 @@ a{
 .hamb-line::after{
     top: -5px;
 }
+.toggle-menu {
+    display: none;
+} /* Hide checkbox */
