@@ -115,6 +115,10 @@ a{
 }
 .header__side-menuu li{
     margin-top: 10px;
+   
+}
+.header__side-menuu li h3{
+    margin-bottom: 10px;
 }
 a.active{
     display: inline-block;
