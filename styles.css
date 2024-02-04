@@ -114,3 +114,40 @@ a{
 .side-menuu li{
     margin-top: 10px;
 }
+
+@media (min-width: 768px) {
+
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+        flex-wrap: nowrap;
+       
+        
+    }
+   
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+
+    }
+
+    .hamb{
+        display: none;
+    }
+    .side-menu{
+        display: none;
+    }
+    .side-menuu{
+        display: block
+    }
+    .side-menuu a{
+        display: block;
+    }
+}
