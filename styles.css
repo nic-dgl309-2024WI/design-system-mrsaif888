@@ -5,3 +5,13 @@
 --clr-light: #F5F5F5;
 --clr-white: #FFFFFF;
 }
+
+body,html{
+box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,p,picture,figure{
+    margin: 0;
+}
+ul,li{
+    padding: 0;
+}
