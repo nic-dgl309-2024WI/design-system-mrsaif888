@@ -96,3 +96,18 @@ a{
 .toggle-menu {
     display: none;
 } /* Hide checkbox */
+/* Toggle menu icon */
+.toggle-menu:checked ~ nav{
+    max-height: 100%;
+}
+.toggle-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.toggle-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.toggle-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
