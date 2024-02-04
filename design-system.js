@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var links = document.querySelectorAll('.menu a');
+    var links = document.querySelectorAll('.header__menu a');
     var previousLink = null;
   
     // Add event listener to each link
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   document.addEventListener("DOMContentLoaded", function() {
-    var links = document.querySelectorAll('.side-menu a');
+    var links = document.querySelectorAll('.header__side-menu a');
     var previousLink = null;
   
     // Add event listener to each link
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   document.addEventListener("DOMContentLoaded", function() {
-    var links = document.querySelectorAll('.side-menuu a');
+    var links = document.querySelectorAll('.header__side-menuu a');
     var previousLink = null;
   
     // Add event listener to each link
