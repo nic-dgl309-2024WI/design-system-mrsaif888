@@ -1,9 +1,10 @@
 :root{
---clr-primary: #000000;
---clr-secondary: #333333;
---clr-accent: #333333;
---clr-light: #F5F5F5;
---clr-white: #FFFFFF;
+--clr-primary: #2E0566;
+--bg-primary: #C7B4F4; 
+--clr-bg-accent: #051066;
+--clr-accent: #A0A9EE;
+--clr-secondary:#735f8f;
+ 
 }
 
 body,html{
