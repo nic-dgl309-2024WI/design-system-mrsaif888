@@ -127,7 +127,7 @@ a:hover{
     color: var(--clr-accent);
 
 }
-.swatch-design{
+.colour__swatch-design{
     display: block;
     width: 200px;
     height: 50px;
@@ -151,7 +151,7 @@ a:hover{
     background-color: var(--clr-bg-secondary);
     color: var(--clr-secondary);
 }
-.clr-accent{
+.colour__clr-accent{
 background-color: var(--clr-accent);
 }
 .text-primary{
