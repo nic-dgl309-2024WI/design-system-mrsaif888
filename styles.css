@@ -138,13 +138,39 @@ a:hover{
     
    
 }
-.text-primary{
+.primary-text{
     background-color: var(--clr-primary);
     color: var(--bg-primary);
 }
-.bg-primary{
+.primary-bg{
     background-color: var(--bg-primary);
     color: var(--clr-primary);
+}
+.secondary-text{
+    background-color: var(--clr-secondary);
+    color: var(--clr-bg-secondary);
+}
+.secondary-bg{
+    background-color: var(--clr-bg-secondary);
+    color: var(--clr-secondary);
+}
+.clr-accent{
+background-color: var(--clr-accent);
+}
+.text-primary{
+    color:var(--clr-primary);
+}
+.bg-primary{
+    background-color: var(--bg-primary);
+}
+.text-secondary{
+    color: var(--clr-secondary);
+}
+.bg-secondary{
+    background-color: var(--clr-bg-secondary);
+}
+.accent-clr{
+color: var(--clr-accent);
 }
 /* Responsive */
 @media (min-width: 768px) {
