@@ -22,8 +22,13 @@ box-sizing: border-box;
 }
 body,h1,h2,h3,h4,h5,p,picture,figure{
     margin: 0;
+    font-family: var(--ff-cri);
     
 }
+h1,h2,h3,h4,h5{
+    font-family: var(--ff-libre);
+}
+
 ul,li{
     padding: 0;
 }
