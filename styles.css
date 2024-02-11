@@ -4,6 +4,8 @@
 --clr-bg-secondary: #051066;
 --clr-secondary: #A0A9EE;
 --clr-accent:#735f8f;
+--ff-cri:'Crimson Text', serif;
+--ff-libre:'Libre Baskerville', serif;
  
 }
 
@@ -178,10 +180,13 @@ color: var(--clr-accent);
 
 /* Typography */
 .f-cri{
-    font-family: 'Crimson Text', serif;
+    
 }
 .f-libre{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 
+}
+.b-text{
+    font-size: 1.1rem;
 }
 /* Responsive */
 @media (min-width: 768px) {
