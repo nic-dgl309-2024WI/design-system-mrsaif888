@@ -188,6 +188,7 @@ color: var(--clr-accent);
 /* Typography */
 .font-crimson{
     font-family: var(--ff-cri);
+   
 }
 .font-libre{
     font-family: var(--ff-libre)
@@ -225,6 +226,12 @@ color: var(--clr-accent);
 }
 .fw-bolder{
     font-weight: var(--fw-bolder);
+}
+.u-lh{
+    line-height: 1.3rem;
+}
+.u-letter-sp{
+    letter-spacing: 0.0010rem;
 }
 /* Responsive */
 @media (min-width: 768px) {
