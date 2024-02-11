@@ -6,6 +6,11 @@
 --clr-accent:#735f8f;
 --ff-cri:'Crimson Text', serif;
 --ff-libre:'Libre Baskerville', serif;
+--fs-xs:"1.1rem";
+--fs-sm:"1.25rem";
+--fs-md:"1.5rem";
+--fs-large:"1.8rem";
+--fs-xl:"2.2rem";
  
 }
 
@@ -180,10 +185,10 @@ color: var(--clr-accent);
 
 /* Typography */
 .f-cri{
-    
+    font-family: var(--ff-cri);
 }
 .f-libre{
-    font-family: 
+    font-family: var(--ff-libre)
 }
 .b-text{
     font-size: 1.1rem;
