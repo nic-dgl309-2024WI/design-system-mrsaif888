@@ -22,11 +22,11 @@ box-sizing: border-box;
 }
 body,h1,h2,h3,h4,h5,p,picture,figure{
     margin: 0;
-    font-family: var(--ff-cri);
+    /* font-family: var(--ff-cri); */
     
 }
 h1,h2,h3,h4,h5{
-    font-family: var(--ff-libre);
+    /* font-family: var(--ff-libre); */
 }
 
 ul,li{
@@ -191,14 +191,14 @@ color: var(--clr-accent);
 }
 
 /* Typography */
-.font-crimson{
+.font-families__font-crimson{
     font-family: var(--ff-cri);
    
 }
-.font-libre{
-    font-family: var(--ff-libre)
+.font-families__font-libre{
+    font-family: var(--ff-libre);
 }
-.b-text{
+.font-uses__b-text{
     font-size: 1.1rem;
 }
 /* Utility classes for typography */
