@@ -1,9 +1,9 @@
 :root{
---clr-primary: #2E0566;
---bg-primary: #C7B4F4; 
---clr-bg-secondary: #051066;
---clr-secondary: #A0A9EE;
---clr-accent:#735f8f;
+--clr-primary: #2b2c34;
+--bg-primary: #fffffe; 
+--clr-bg-secondary: #d1d1e9;
+--clr-secondary: #6246ea ;
+--clr-accent:#e45858;
 --ff-cri:'Crimson Text', serif;
 --ff-libre:'Libre Baskerville', serif;
 --fs-xs:1.1rem;
