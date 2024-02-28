@@ -150,7 +150,7 @@ color: var(--clr-accent);
 
 /* Typography */
 .font-families__font-crimson{
-    font-family: var(--ff-cri);
+    font-family: var(--ff-primary);
    
 }
 .font-families__font-libre{
@@ -159,43 +159,7 @@ color: var(--clr-accent);
 .font-uses__b-text{
     font-size: 1.1rem;
 }
-/* Utility classes for typography */
-.f-cri{
-    font-family: var(--ff-cri);
-}
-.f-libre{
-    font-family: var(--ff-libre);
-}
-.fs-xs{
-    font-size: var(--fs-xs);
-}
-.fs-sm{
-    font-size: var(--fs-sm);
-}
-.fs-medium{
-    font-size: var(--fs-md);
-}
-.fs-large{
-    font-size: var(--fs-large);
-}
-.fs-xl{
-    font-size: var(--fs-xl);
-}
-.fw-normal{
-    font-weight: var(--fw-normal);
-}
-.fw-bold{
-    font-weight: var(--fw-bold);
-}
-.fw-bolder{
-    font-weight: var(--fw-bolder);
-}
-.u-lh{
-    line-height: 1.3rem;
-}
-.u-letter-sp{
-    letter-spacing: 0.0010rem;
-}
+
 /* Responsive */
 @media (min-width: 768px) {
 

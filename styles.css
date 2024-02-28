@@ -1,19 +1,23 @@
+
 :root{
+    /* colors variable */
 --clr-primary-dark: #2b2c34;
 --clr-primary: #fffffe; 
 --clr-secondary: #d1d1e9;
 --clr-secondary-dark: #6246ea ;
 --clr-accent:#e45858;
---ff-cri:'Crimson Text', serif;
---ff-libre:'Libre Baskerville', serif;
+/* font family varibale */
+--ff-primary:'Crimson Text', serif;
+/* font size variable */
 --fs-xs:1.1rem;
 --fs-sm:1.25rem;
 --fs-md:1.5rem;
 --fs-large:2rem;
 --fs-xl:2.5rem;
+/* font weight variable */
 --fw-normal:400;
 --fw-bold:600;
---fw-bolder:800;
+--fw-bolder:700;
  
 }
 
@@ -22,7 +26,7 @@ box-sizing: border-box;
 }
 body,h1,h2,h3,h4,h5,p,picture,figure{
     margin: 0;
-    /* font-family: var(--ff-cri); */
+    /* font-family: var(--ff-primary); */
     
 }
 h1,h2,h3,h4,h5{
@@ -83,39 +87,41 @@ a{
 
 
 /* Utility classes for typography */
-.f-cri{
-    font-family: var(--ff-cri);
+/* utilty class for font family */
+.u-ff-serif{
+    font-family: var(--ff-primary);
 }
-.f-libre{
-    font-family: var(--ff-libre);
-}
-.fs-xs{
+/* utilty class for font size */
+.u-fs-xs{
     font-size: var(--fs-xs);
 }
-.fs-sm{
+.u-fs-sm{
     font-size: var(--fs-sm);
 }
-.fs-medium{
+.u-fs-medium{
     font-size: var(--fs-md);
 }
-.fs-large{
+.u-fs-large{
     font-size: var(--fs-large);
 }
-.fs-xl{
+.u-fs-xl{
     font-size: var(--fs-xl);
 }
-.fw-normal{
+/* utilty class for font weight */
+.u-fw-normal{
     font-weight: var(--fw-normal);
 }
-.fw-bold{
+.u-fw-bold{
     font-weight: var(--fw-bold);
 }
-.fw-bolder{
+.u-fw-bolder{
     font-weight: var(--fw-bolder);
 }
+/* utilty class for line height */
 .u-lh{
     line-height: 1.3rem;
 }
+/* utilty class for letter spacing */
 .u-letter-sp{
     letter-spacing: 0.0010rem;
 }
