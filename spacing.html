@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./design-system.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header u-ff-serif">
         <div class="header__main">
         <!-- Logo -->
-        <a href="index.html" class="header__logo u-fs-large u-ff-serif u-u-fw-bolder">Design System</a>
+        <a href="index.html" class="header__logo u-fs-large u-ff-serif u-u-fw-bolder ">Design System</a>
         <!-- Hamburger icon -->
         <input class="header__toggle-menu" type="checkbox" id="header__side-menu"/>
         <label class="header__hamb" for="header__side-menu"><span class="header__hamb-line"></span></label>
@@ -28,13 +28,13 @@
             <ul class="header__side-menu">
                 <li class="header__side-menu__list">
                     <h3 class=" header__side-menu__title u-ff-serif u-fs-medium">Branding </h3></li>
-                    <li class="header__side-menu__item"><a href="colours.html" class="active">01 Color</a></li>
-                    <li class="header__side-menu__item"><a href="typography.html"  >02 Typography</a></li>
+                    <li class="header__side-menu__item"><a href="colours.html">01 Color</a></li>
+                    <li class="header__side-menu__item"><a href="typography.html">02 Typography</a></li>
                     <li class="header__side-menu__item"><a href="">03 Logo</a></li>
                 
                 <li class="header__side-menu__list">
                     <h3 class="header__side-menu__title u-ff-serif u-fs-medium">Utilities  </h3></li>
-                    <li class="header__side-menu__item"><a href="spacing.html">04 Spacing </a></li>
+                    <li class="header__side-menu__item "><a href="spacing.html" class="active">04 Spacing </a></li>
                     <li class="header__side-menu__item"><a href="">05 Containers</a></li>
                     <li class="header__side-menu__item"><a href="">06 Images </a></li>
                     <li class="header__side-menu__item"><a href="">07 Interactive </a></li>
@@ -68,13 +68,13 @@
         <ul class="header__side-menuu">
             <li class="header__side-menuu__list">
                 <h3 class=" header__side-menuu__title u-ff-serif u-fs-medium">Branding </h3></li>
-                <li class="header__side-menuu__item"><a href="colours.html" class="active">01 Color </a></li>
+                <li class="header__side-menuu__item"><a href="colours.html">01 Color</a></li>
                 <li class="header__side-menuu__item"><a href="typography.html" >02 Typography</a></li>
                 <li class="header__side-menuu__item"><a href="">03 Logo</a></li>
             
             <li class="header__side-menuu__list">
                 <h3 class="u-ff-serif u-fs-medium">Utilities  </h3></li>
-                <li class="header__side-menuu__item"><a href="spacing.html">04 Spacing </a></li>
+                <li class="header__side-menuu__item"><a href="spacing.html" class="active">04 Spacing </a></li>
                 <li class="header__side-menuu__item"><a href="">05 Containers</a></li>
                 <li class="header__side-menuu__item"><a href="">06 Images </a></li>
                 <li class="header__side-menuu__item"><a href="">07 Interactive </a></li>
@@ -103,56 +103,25 @@
         </ul>
         
     </header>
-    <div class="colour u-ff-serif u-fs-xs">
-        <!-- Primary Colors Section -->
-    <div class="colour__primary-clr">
-        <h2 class= "colour__primary-clr__title u-fs-large u-ff-serif">Primary Colours</h2>
-        <h4 class="colour__primary-clr__sub-title u-ff-serif">.text-primary (blue-gray) #2b2c34 </h4>
-        <span>Headings, text, links</span>
-        <span class=" colour__swatch-design primary-text">
-         </span>
-        <h4 class="colour__primary-clr__sub-title u-ff-serif">.bg-primary (white)   #fffffe </h4>
-        <span>Body background, button text, anchor hover text</span>
-        <span class="colour__swatch-design primary-bg">
-          
-        </span>
-    </div>
-     <!-- Secondary Colors Section -->
-    <div class="colour__secondary-clr">
-        <h2 class=" colour__secondary-clr__title u-ff-serif">Secondary Colours</h2>
-        <h4 class="colour__secondary-clr__sub-title u-ff-serif">.text-secondary (deep blue purple) #6246ea </h4>
-        <span>Button background, highlights</span>
-        <span class="colour__swatch-design secondary-text">
-            
-        </span>
-        <h4 class="colour__secondary-clr__sub-title u-ff-serif">.bg-secondary (pale lavender) #d1d1e9 </h4>
-        <span>components background</span>
-        <span class="colour__swatch-design secondary-bg">
-            
-        </span>
+    <div class="spacing">
+    <h1 class="u-u-fw-bolder">Spacing</h1>
+    <div class="spacing__mp">
+    <h2 class="u-fw-bold"> Maring and Padding</h2>
+    <p>
+        The class to represent margin is mr
+        <br> The class to represent padding is pd
+    </p>
 
-    </div>
-     <!-- Accent Color Section -->
-    <div class="colour__accent">
-        <h2 class="colour__accent__title u-ff-serif">Accent Colour</h2>
-        <h4 class="colour__accent__sub-title u-ff-serif">.accent-clr (Crimson)  #e45858</h4>
-        <span>Call to actions</span>
-        <span class="colour__swatch-design colour__clr-accent">
-            
-        </span>
-    </div>
 </div>
-<!-- Color Combinations Section -->
-<div class="color-combinations">
-    <h2 class="color-combinations__title">Color Combination</h2>
-    <h4 class="color-combinations__sub-title">#fffffe</h4>
-    <p class="color-combinations__desc">for the primary background you can use #2b2c34 as a text color</p>
-    <p class="color-combinations__desc">for the primary background you can use #6246ea as a text color</p>
-    <h4 class="color-combinations__sub-title">#d1d1e9</h4>
-    <p class="color-combinations__desc">for the primary background you can use #2b2c34 as a text color</p>
-    <p class="color-combinations__desc">for the primary background you can use #6246ea as a text color</p>
+<div class="spacing__side-list">
+    <h2>Margin and Padding Sides</h2>
+    <ul class="spacing__side-list__list">
+        <li class="spacing__side-list__list__items">
+            A class that represent margin and padding to is <b>.t</b>
+        </li>
+    </ul>
 </div>
-
+</div>
     <script src="./design-system.js"></script>
 </body>
 </html>
