@@ -116,6 +116,8 @@ a:hover{
     
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary);
+    padding:  0 10px;
+    border-radius: 5px;
 
 }
 /* //color page */
@@ -124,6 +126,7 @@ a:hover{
     width: 200px;
     height: 50px;
     text-align: center;
+    border-radius: 10px;
     
    
 }
@@ -164,6 +167,8 @@ color: var(--clr-accent);
 .active{
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary);
+    padding: 0 10px;
+    border-radius: 5px;
 }
 .table-headings{
     text-align: left;
@@ -213,6 +218,7 @@ tr{
     border-bottom: 1px solid;
 }
 
+
 /* Responsive */
 @media (min-width: 768px) {
 
@@ -226,6 +232,20 @@ tr{
         flex-wrap: nowrap;
        
         
+    }
+    .colors-table{
+        padding-top: 20px;
+    }
+    .header__main{
+        padding:20px;
+        font-size: var(--fs-xs);
+    }
+    .header__menu li{
+        padding-left: 10px;
+    }
+    .header__side-menuu{
+        padding: 20px;
+        font-size: var(--fs-xs);
     }
    
     .header__menu li{
@@ -250,5 +270,14 @@ tr{
     .margin-padding{
         margin: 0 50px 0 370px !important;
         padding-top: 100px;
+    }
+    .colour__primary-clr{
+        display: none;
+    }
+    .colour__secondary-clr{
+display: none;
+    }
+    .colour__accent{
+        display: none;
     }
 }
