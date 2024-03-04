@@ -177,6 +177,13 @@ color: var(--clr-accent);
    
 }
 
+/* Containers */
+.containers__table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
 
