@@ -160,6 +160,12 @@ color: var(--clr-accent);
     font-size: 1.1rem;
 }
 
+/* spacing */
+.spacing__side-list__list{
+    list-style-type: disc;
+   
+}
+
 /* Responsive */
 @media (min-width: 768px) {
 
