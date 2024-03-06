@@ -1,91 +1,21 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     var links = document.querySelectorAll('.header__menu a');
-//     var previousLink = null;
+function copyToClipboard(sectionId, icon) {
+    const textToCopy = document.getElementById(sectionId).innerText;
   
-//     // Add event listener to each link
-//     links.forEach(function(link) {
-//       link.addEventListener('click', function(event) {
-//         // Prevent default link behavior
-//         event.preventDefault();
-  
-//         // Reset color of previously clicked link
-//         if (previousLink !== null) {
-//           previousLink.style.color = ''; // Reset to original color
-//         }
-  
-//         // Remove active class from all links
-//         links.forEach(function(link) {
-//           link.classList.remove('active');
-//         });
-  
-//         // Add active class to the clicked link
-//         link.classList.add('active');
-  
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(function () {
         
+        icon.innerHTML =
+          '  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>';
+
   
-//         // Update the previous link to the current one
-//         previousLink = link;
-//       });
-//     });
-//   });
-//   document.addEventListener("DOMContentLoaded", function() {
-//     var links = document.querySelectorAll('.header__side-menu a');
-//     var previousLink = null;
-  
-//     // Add event listener to each link
-//     links.forEach(function(link) {
-//       link.addEventListener('click', function(event) {
-//         // Prevent default link behavior
-//         event.preventDefault();
-  
-//         // Reset color of previously clicked link
-//         if (previousLink !== null) {
-//           previousLink.style.color = ''; // Reset to original color
-//         }
-  
-//         // Remove active class from all links
-//         links.forEach(function(link) {
-//           link.classList.remove('active');
-//         });
-  
-//         // Add active class to the clicked link
-//         link.classList.add('active');
-  
-     
-  
-//         // Update the previous link to the current one
-//         previousLink = link;
-//       });
-//     });
-//   });
-//   document.addEventListener("DOMContentLoaded", function() {
-//     var links = document.querySelectorAll('.header__side-menuu a');
-//     var previousLink = null;
-  
-//     // Add event listener to each link
-//     links.forEach(function(link) {
-//       link.addEventListener('click', function(event) {
-//         // Prevent default link behavior
-//         event.preventDefault();
-  
-//         // Reset color of previously clicked link
-//         if (previousLink !== null) {
-//           previousLink.style.color = ''; // Reset to original color
-//         }
-  
-//         // Remove active class from all links
-//         links.forEach(function(link) {
-//           link.classList.remove('active');
-//         });
-  
-//         // Add active class to the clicked link
-//         link.classList.add('active');
-  
-      
-//         // Update the previous link to the current one
-//         previousLink = link;
-//       });
-//     });
-//   });
-  
-  
+        setTimeout(function () {
+          icon.innerHTML =
+            '   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>';
+            
+        }, 2000);
+      })
+      .catch(function (err) {
+        console.error('Unable to copy text to clipboard', err);
+      });
+  }

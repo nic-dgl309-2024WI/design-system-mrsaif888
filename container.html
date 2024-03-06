@@ -114,12 +114,12 @@
             <thead>
               <tr>
                 <th>Container Classes</th>
-                <th>Extra small &lt;570px</th>
-                <th>Small ≥570px</th>
-                <th>Medium ≥750px</th>
-                <th>Large ≥980px</th>
-                <th>X-Large ≥1150px</th>
-                <th>XX-Large ≥1370px</th>
+                <th class="l-pr-2">Extra small &lt;570px</th>
+                <th class="l-pr-2">Small ≥570px</th>
+                <th class="l-pr-2">Medium ≥750px</th>
+                <th class="l-pr-2">Large ≥980px</th>
+                <th class="l-pr-2">X-Large ≥1150px</th>
+                <th class="l-pr-2">XX-Large ≥1370px</th>
               </tr>
             </thead>
             <tbody>
@@ -269,6 +269,31 @@
             </div>
             </div>
           </div>
+          <div class="container__example">
+            <h2 class="l-mt-5">Example 1</h2>
+          <div class="container__classes l-mt-5">
+            <h2>Default Container</h2>
+            <div class="utility-classes__desc">
+                <h4>HTML</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+            </div>
+    <p><code>&lt;div class = "container"&gt; This is a Default container &lt;/div&gt;</code></p>
+          </div>
+        </div>
+
+        <div class="container__example">
+            <h2 class="l-mt-5">Example 2</h2>
+          <div class="container__classes l-mt-5">
+            <h2>Container Fluid</h2>
+            <div class="utility-classes__desc">
+                <h4>HTML</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+            </div>
+    <p><code>&lt;div class = "container-fluid"&gt;This is a container fluid &lt;/div&gt;</code></p>
+          </div>
+        </div>
+        
+        
           <div class="container__classes l-mt-5">
             <h2>Container Classes</h2>
             <div class="utility-classes__desc">
@@ -284,7 +309,144 @@
     <p><code>&lt;div class = " container-fluid"&gt; &lt;/div&gt;</code></p>
           </div>
     </div>
-</div>
+    <div class= "containers__flex l-mt-5 l-pb-2">
+        <h2 class= "l-mb-5">Flex Box Examples</h2>
+        <div class= "containers__flex__title l-mb-3">
+            <h2>Space Between</h2>
+        </div>
+        <div class= "containers__flex__space-between l-flex l-justify-content-space-between container-sm">
+        <div class= "containers__flex__box u-bg-secondary"></div>
+        <div class= "containers__flex__box u-bg-secondary"></div>
+        <div class= "containers__flex__box u-bg-secondary"></div>
+    </div>
+    <div class= "containers__flex__utility-classes ulitity-classes l-mt-2 ">
+        <h2>Example classes</h2>
+        <div class= "utility-classes__desc">
+        <h4>HTML</h4>
+        <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+    </div>
+    
+    <p><code>&lt;div class = "l-flex"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-space-between"&gt; &lt;/div&gt;</code></p>
+    
+    
+    </div>
+    <div class= "containers__flex__title l-mb-3">
+        <h2 class= "l-mt-5">Center</h2>
+    </div>
+    <div class= "containers__flex__center l-flex l-justify-content-center">
+        <div class= "containers__flex__box u-bg-secondary"></div>
+        <div class= "containers__flex__box u-bg-secondary"></div>
+        <div class= "containers__flex__box u-bg-secondary"></div>
+    </div>
+    <div class= "containers__flex__utility-classes ulitity-classes l-mt-2 ">
+        <h2>Example classes</h2>
+        <div class= "utility-classes__desc">
+        <h4>HTML</h4>
+        <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+    </div>
+    
+    <p><code>&lt;div class = "l-flex"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-center"&gt; &lt;/div&gt;</code></p>
+    
+    
+    </div>
+    <div class= "containers__flex__title l-mb-3">
+        <h2 class= "l-mt-5">Align Items Center</h2>
+    </div>
+    <div class= "containers__flex__center l-flex l-justify-content-center">
+        <div class= "containers__flex__box u-bg-secondary l-flex l-align-items-center">Center Aligned</div>
+        <div class= "containers__flex__box u-bg-secondary l-flex l-align-items-center">Center Aligned</div>
+        <div class= "containers__flex__box u-bg-secondary l-flex l-align-items-center">Center Aligned</div>
+    </div>
+    <div class= "containers__flex__utility-classes ulitity-classes l-mt-2 ">
+        <h2>Example classes</h2>
+        <div class= "utility-classes__desc">
+        <h4>HTML</h4>
+        <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+    </div>
+    
+    <p><code>&lt;div class = "l-flex"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-center"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-align-items-center"&gt; &lt;/div&gt;</code></p>
+    
+    
+    
+    </div>
+    <div class= "containers__flex__utility-classes ulitity-classes l-mt-5 ">
+        <h2>Flex Box Utility Class List</h2>
+        <div class= "utility-classes__desc">
+        <h4>HTML</h4>
+        <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+    </div>
+    
+    <p><code>&lt;div class = "l-flex"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-flex-row"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-flex-column"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-start"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-end"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-center"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-space-between"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-justify-content-space-around"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-align-items-start"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-align-items-center"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-align-items-end"&gt; &lt;/div&gt;</code></p>
+    <p><code>&lt;div class = "l-flex-wrap"&gt; &lt;/div&gt;</code></p>
+    
+    
+    
+    </div>
+    </div>
+    
+    <div class= "containers__grid l-mt-5 l-pb-2">
+        <h2 class= "l-mb-5">Grid</h2>
+        <div class= "l-grid l-grid-columns-3 l-grid-gap-10px l-align-content-center">
+            <div class= "containers__grid__box bg-secondary">1</div>
+            <div class= "containers__grid__box bg-secondary">2</div>
+            <div class= "containers__grid__box bg-secondary">3</div>
+            <div class= "containers__grid__box bg-secondary">4</div>
+            <div class= "containers__grid__box bg-secondary">5</div>
+            <div class= "containers__grid__box bg-secondary">6</div>
+          </div>
+          
+          <div class= "containers__grid__utility-classes ulitity-classes l-mt-2 ">
+            <h2>Example classes</h2>
+            <div class= "utility-classes__desc">
+            <h4>HTML</h4>
+            <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+        </div>
+        
+        <p><code>&lt;div class = "l-grid"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-columns-3"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-gap-10px"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-align-content-center"&gt; &lt;/div&gt;</code></p>
+        
+        
+        
+        </div>
+        <div class= "containers__grid__utility-classes ulitity-classes l-mt-5 ">
+            <h2>Grid Utility Class List</h2>
+            <div class= "utility-classes__desc">
+            <h4>HTML</h4>
+            <svg xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 448 512"><path d= "M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
+        </div>
+        
+        <p><code>&lt;div class = "l-grid"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-columns-2"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-columns-3"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-columns-auto"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-row-2"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-row-3"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-row-auto"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-gap-5px"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-grid-gap-10px"&gt; &lt;/div&gt;</code></p>
+        <p><code>&lt;div class = "l-align-content-center"&gt; &lt;/div&gt;</code></p>
+        
+        
+        
+        </div>
+    </div>
+    </div>
 </section>
     <script src="./design-system.js"></script>
 </body>
