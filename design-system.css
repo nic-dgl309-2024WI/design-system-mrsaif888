@@ -309,6 +309,23 @@ tr{
   .spacing__flex__utility-classes h2{
     text-align: center;
   }
+  /* Grid */
+
+  .spacing__grid{
+    text-align: center;
+  }
+  .spacing__grid__utility-classes{
+    text-align: left;
+  }
+  .spacing__grid__utility-classes h2{
+    text-align: center;
+  }
+  .spacing__grid__box {
+    
+    border: 1px solid var(--clr-primary-dark);
+    text-align: center;
+    padding: 20px;
+  }
 
 /* Responsive */
 @media (min-width: 768px) {
