@@ -362,6 +362,7 @@ tr{
     .header__side-menuu{
         padding: 20px;
         font-size: var(--fs-xs);
+        height: 100vh;
     }
    
     .header__menu li{
