@@ -330,6 +330,7 @@ tr{
   .about-me-desktop{
     display: none;
   }
+  
 
 /* Responsive */
 @media (min-width: 768px) {
