@@ -432,7 +432,12 @@ margin: auto;
   .l-justify-content-center {
     justify-content: center;
   }
-
+  .l-justify-content-space-between {
+    justify-content: space-between;
+  }
+  .l-justify-content-space-around {
+    justify-content: space-around;
+  }
   .l-justify-content-end {
     justify-content: flex-end;
   }
