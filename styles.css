@@ -138,276 +138,317 @@ a{
 
 /* spacing utility classes */
 /* for marign top */
-.mt-0{
+.l-mt-0{
 margin-top: 0;
 }
-.mt-1{
+.l-mt-1{
     margin-top: 0.5rem;
 }
-.mt-2{
+.l-mt-2{
     margin-top: 1rem;
 }
-.mt-3{
+.l-mt-3{
     margin-top: 1.5rem;
 }
-.mt-4{
+.l-mt-4{
     margin-top: 2rem;
 }
-.mt-5{
+.l-mt-5{
     margin-top: 2.5rem;
 }
 /* for margin bottom */
 
-.mb-0{
+.l-mb-0{
     margin-bottom: 0;
 }
-.mb-1{
+.l-mb-1{
     margin-bottom: 0.5rem;
 }
-.mb-2{
+.l-mb-2{
     margin-bottom: 1rem;
 }
-.mb-3{
+.l-mb-3{
     margin-bottom: 1.5rem;
 }
-.mb-4{
+.l-mb-4{
     margin-bottom: 2rem;
 }
-.mb-5{
+.l-mb-5{
     margin-bottom: 2.5rem;
 }
 
 /* for margin left */
-.ml-0{
+.l-ml-0{
     margin-left: 0;
 }
-.ml-1{
+.l-ml-1{
     margin-left: 0.5rem
 }
-.ml-2{
+.l-ml-2{
     margin-left: 1rem;
 }
-.ml-3{
+.l-ml-3{
     margin-left: 1.5rem;
 }
-.ml-4{
+.l-ml-4{
     margin-left: 2rem;
 }
-.ml-5{
+.l-ml-5{
     margin-left: 2.5rem;
 }
 
 /* for margin right */
 
-.mr-0{
+.l-mr-0{
     margin-right: 0;
 }
-.mr-1{
+.l-mr-1{
     margin-right: 0.5rem;
 }
-.mr-2{
+.l-mr-2{
     margin-right: 1rem;
 }
-.mr-3{
+.l-mr-3{
     margin-right: 1.5rem;
 }
-.mr-4{
+.l-mr-4{
     margin-right: 2rem;
 }
-.mr-5{
+.l-mr-5{
     margin-right: 2.5rem;
 }
 
 /* for margin x-axis */
 
-.mx-0{
+.l-mx-0{
     margin-left: 0;
     margin-right: 0;
 }
-.mx-1{
+.l-mx-1{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-.mx-2{
+.l-mx-2{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.mx-3{
+.l-mx-3{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
-.mx-4{
+.l-mx-4{
     margin-left: 2rem;
     margin-right: 2rem
 }
-.mx-5{
+.l-mx-5{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
 
 /* for margin y-axis */
-.my-0{
+.l-my-0{
     margin-top: 0;
     margin-bottom: 0;
 }
-.my-1{
+.l-my-1{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.my-2{
+.l-my-2{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.my-3{
+.l-my-3{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.my-4{
+.l-my-4{
     margin-top: 2rem;
     margin-bottom: 2rem
 }
-.my-5{
+.l-my-5{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
 /* for margin auto */
 
-.m-auto{
+.l-m-auto{
 margin: auto;
 }
 
 /* for padding top */
-.pt-0{
+.l-pt-0{
     padding-top: 0;
     }
- .pt-1{
+ .l-pt-1{
         padding-top: 0.5rem;
     }
- .pt-2{
+ .l-pt-2{
         padding-top: 1rem;
     }
-.pt-3{
+.l-pt-3{
         padding-top: 1.5rem;
     }
-.pt-4{
+.l-pt-4{
         padding-top: 2rem;
     }
-.pt-5{
+.l-pt-5{
         padding-top: 2.5rem;
     }
 
 /* for padding bottom */
-.pb-0{
+.l-pb-0{
     padding-bottom: 0;
 }
-.pb-1{
+.l-pb-1{
     padding-bottom: 0.5rem
 }
-.pb-2{
+.l-pb-2{
     padding-bottom: 1rem;
 }
-.pb-3{
+.l-pb-3{
     padding-bottom: 1.5rem;
 }
-.pb-4{
+.l-pb-4{
     padding-bottom: 2rem;
 }
-.pb-5{
+.l-pb-5{
     padding-bottom: 2.5rem;
 }
 
 /* for padding left */
-.pl-0{
+.l-pl-0{
     padding-left: 0;
 }
-.pl-1{
+.l-pl-1{
     padding-left: 0.5rem
 }
-.pl-2{
+.l-pl-2{
     padding-left: 1rem;
 }
-.pl-3{
+.l-pl-3{
     padding-left: 1.5rem;
 }
-.pl-4{
+.l-pl-4{
     padding-left: 2rem;
 }
-.pl-5{
+.l-pl-5{
     padding-left: 2.5rem;
 }
 
 /* for padding right */
-.pr-0{
+.l-pr-0{
     padding-right: 0;
 }
-.pr-1{
+.l-pr-1{
     padding-right: 0.5rem;
 }
-.pr-2{
+.l-pr-2{
     padding-right: 1rem;
 }
-.pr-3{
+.l-pr-3{
     padding-right: 1.5rem;
 }
-.pr-4{
+.l-pr-4{
     padding-right: 2rem;
 }
-.pr-5{
+.l-pr-5{
     padding-right: 2.5rem;
 }
 
 /* for padding x-axis */
-.px-0{
+.l-px-0{
     padding-left: 0;
     padding-right: 0;
 }
-.px-1{
+.l-px-1{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
-.px-2{
+.l-px-2{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.px-3{
+.l-px-3{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.px-4{
+.l-px-4{
     padding-left: 2rem;
     padding-right: 2rem
 }
-.px-5{
+.l-px-5{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
 
 /* for padding y-axis */
-.py-0{
+.l-py-0{
     padding-top: 0;
     padding-bottom: 0;
 }
-.py-1{
+.l-py-1{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-.py-2{
+.l-py-2{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.py-3{
+.l-py-3{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-.py-4{
+.l-py-4{
     padding-top: 2rem;
     padding-bottom: 2rem
 }
-.py-5{
+.l-py-5{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
 /* padding auto  */
-.p-auto{
+.l-p-auto{
     padding: auto;
 }
+
+/* flex */
+.l-flex {
+    display: flex;
+  }
+
+  .l-flex-row {
+    flex-direction: row;
+  }
+
+  .l-flex-column {
+    flex-direction: column;
+  }
+
+  .l-justify-content-start {
+    justify-content: flex-start;
+  }
+
+  .l-justify-content-center {
+    justify-content: center;
+  }
+
+  .l-justify-content-end {
+    justify-content: flex-end;
+  }
+
+  .l-align-items-start {
+    align-items: flex-start;
+  }
+
+  .l-align-items-center {
+    align-items: center;
+  }
+
+  .l-align-items-end {
+    align-items: flex-end;
+  }
+
+  .l-flex-wrap {
+    flex-wrap: wrap;
+  }
