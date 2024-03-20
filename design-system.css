@@ -253,6 +253,9 @@ svg{
 .font-families{
     padding-top: 5.5rem;
 }
+.classes__heading-box h2, .ulitity-classes h2{
+padding-bottom: 20px;
+}
 
 /* spacing */
 .spacing__side-list__list{
@@ -289,6 +292,9 @@ tr{
     background-color: var(--clr-secondary);
     padding: 20px;
     border-radius: 10px;
+}
+.container__classes h2{
+    padding-bottom: 10px;
 }
 .containers__table{
     display: none;
@@ -419,6 +425,9 @@ display: none;
     .font-families{
         padding-top: unset;
     }
+    .classes__heading-box, .ulitity-classes{
+        width: 50%;
+    }
     .spacing h1{
         padding-top: unset;
     }
@@ -430,6 +439,9 @@ display: none;
     }
     .container-mobile{
         display: none;
+    }
+    .container__classes{
+        width: 50%;
     }
     .about-me-mobile{
         display: none;
