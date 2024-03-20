@@ -341,7 +341,9 @@ tr{
   .about-me-desktop{
     display: none;
   }
-  
+  .about-me__intro__list__unordered li{
+    list-style: circle;
+  }
 
 /* Responsive */
 @media (min-width: 768px) {
@@ -448,5 +450,8 @@ display: none;
     }
     .about-me-desktop{
         display: flex;
+    }
+    .about-me__intro{
+        width: 50%;
     }
 }
