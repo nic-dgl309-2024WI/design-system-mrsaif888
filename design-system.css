@@ -363,6 +363,8 @@ tr{
         padding: 20px;
         font-size: var(--fs-xs);
         height: 100vh;
+        position: fixed;
+        padding-top: 100px;
     }
    
     .header__menu li{
