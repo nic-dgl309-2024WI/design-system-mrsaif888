@@ -686,6 +686,10 @@ margin: auto;
         font-weight: var(--fw-bold);
 
     }
+    .hero__button:hover{
+        background-color: var(--clr-primary-dark);
+        color: var(--clr-primary);
+    }
     /* div for margin and padding between the sections */
     .margin-padding{
         padding: 50px 0;
@@ -714,8 +718,113 @@ margin: auto;
     }
     .u-card-text{
         font-size: 1rem;
-        color: #555;
+        color: var(--clr-primary-dark);
     }
+    /* carousal */
+    .wrapper {
+       
+        width: 100%;
+        position: relative;
+      }
+      .wrapper i {
+        top: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        font-size: 1.25rem;
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+        transform: translateY(-50%);
+        transition: transform 0.1s linear;
+      }
+      .wrapper i:active{
+        transform: translateY(-50%) scale(0.85);
+      }
+      .wrapper i:first-child{
+        left: -22px;
+      }
+      .wrapper i:last-child{
+        right: -22px;
+      }
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+      .carousel.no-transition {
+        scroll-behavior: auto;
+      }
+      .carousel.dragging {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+      }
+      .carousel.dragging .carding {
+        cursor: grab;
+        user-select: none;
+      }
+      .carousel :where(.carding, .img) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .carousel .carding {
+        scroll-snap-align: start;
+        height: 342px;
+        list-style: none;
+        background: #fff;
+        cursor: pointer;
+        padding-bottom: 15px;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .carousel .carding .img {
+        background: #8B53FF;
+        height: 148px;
+        width: 148px;
+        border-radius: 50%;
+      }
+      .carding .img img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+      }
+      .carousel .carding h2 {
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 30px 0 5px;
+      }
+      .carousel .carding span {
+        color: var(--clr-primary-dark);
+        font-size: 1.31rem;
+      }
+      .wrapper .carousel {
+        
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 100%;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        border-radius: 8px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+    /* products section */
+    .products__button-style{
+        background-color: var(--clr-secondary);
+        color: var(--clr-primary-dark);
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .products__card-body__title, .products__card-body__text{
+        padding: 10px 20px
+    }
+    
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
@@ -764,6 +873,7 @@ margin: auto;
         padding: 20px 40px;
         font-size: var(--fs-sm);
     }
+  
     .bg-image{
         height: 500px;
     }
@@ -777,4 +887,10 @@ margin: auto;
         justify-content: space-between;
         align-items: center;
     }
+    /* carousal */
+    .wrapper .carousel{
+       
+        grid-auto-columns: calc((100% / 3) - 12px);
+      }
+    
 }
