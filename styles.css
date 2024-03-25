@@ -564,6 +564,7 @@ margin: auto;
     width: 100%;
     background-size: cover;
     color: var(--clr-primary);
+    background-attachment: fixed;
   }
   /* header */
   .top-nav__logo a{
@@ -898,7 +899,7 @@ margin: auto;
     }
   
     .bg-image{
-        height: 500px;
+        height: 600px;
     }
     /* div for margin and padding between the sections */
     .margin-padding{
