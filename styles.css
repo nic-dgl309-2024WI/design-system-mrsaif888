@@ -677,7 +677,7 @@ margin: auto;
       border-bottom: 1px solid #444;
     }
     .hero h1{
-        width: 300px;
+        max-width: 60ch;
     }
     .hero__button{
         padding: 20px 10px;
@@ -685,6 +685,10 @@ margin: auto;
         border-radius: 10px;
         font-weight: var(--fw-bold);
 
+    }
+    /* div for margin and padding between the sections */
+    .margin-padding{
+        padding: 50px 0;
     }
 
     /* cards */
@@ -698,7 +702,8 @@ margin: auto;
     }
     .u-card-img-top{
         width: 100%;
-        height: auto;
+        height: 40vh;
+        background-size: cover;
     }
     .u-card-body{
         padding: 20px;
@@ -749,7 +754,7 @@ margin: auto;
         margin-top: 5rem;
       }
       .hero h1{
-        width: 450px;
+        width:17ch;
         font-size: 4rem;
         line-height: 3.1rem;
     }
@@ -764,6 +769,12 @@ margin: auto;
     }
     /* div for margin and padding between the sections */
     .margin-padding{
-        padding: 80px;
+        padding: 80px 0;
+    }
+    /* products section */
+    .products__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
