@@ -568,6 +568,7 @@ margin: auto;
   /* header */
   .top-nav__logo a{
     color: var(--clr-primary);
+    font-size: var(--fs-large);
   }
   header{
     position: sticky;
@@ -821,10 +822,32 @@ margin: auto;
         display: block;
         text-align: center;
     }
+    .products__card{
+        width: 100%;
+    }
     .products__card-body__title, .products__card-body__text{
         padding: 10px 20px
     }
-    
+    /* service section */
+   
+    .service__box{
+        max-width: 500px;
+        width: 300px;
+        height: 300px;
+        background-image: url(./images/clusia.webp);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        border-radius: 10px;
+    }
+  
+    .service__box a{
+        padding-top: 50px;   
+    } 
+   
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
@@ -879,7 +902,7 @@ margin: auto;
     }
     /* div for margin and padding between the sections */
     .margin-padding{
-        padding: 80px 0;
+        padding-top: 60px;
     }
     /* products section */
     .products__flex{
@@ -892,5 +915,34 @@ margin: auto;
        
         grid-auto-columns: calc((100% / 3) - 12px);
       }
+      /* service section */
+      .services{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service__box{
+        max-width: 500px;
+        width: 200px;
+        height: 200px;
     
 }
+    }
+    @media (min-width: 900px){
+
+        /* div margin and padding */
+        .margin-padding{
+            padding-top: 80px;
+        }
+        /* product section */
+        .products__card{
+            width: 18rem;
+        }
+        /* service section */
+        .service__box{
+            max-width: 500px;
+            width: 300px;
+            height: 300px;
+        
+    }
+    }
