@@ -869,6 +869,16 @@ margin: auto;
    .about__image img{
     width: 100%;
    }
+  .about__button-style{
+    margin-top: 2.5rem;
+  }
+  /* gift-certificates section */
+  .gift-certificates__image img{
+    width: 100%;
+   }
+  .gift-certificates__button-style{
+    margin-top: 2.5rem;
+  }
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
@@ -949,6 +959,40 @@ margin: auto;
     
 }
 /* about section */
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__image img{
+    width: 300px;
+}
+.about__desc{
+    font-size: var(--fs-xs);
+}
+
+.about__desc p {
+    width: 40ch;
+}
+/* gift-certificates section */
+.gift-certificates{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.gift-certificates__image img{
+    width: 300px;
+}
+.gift-certificates__desc{
+    font-size: var(--fs-xs);
+}
+
+.gift-certificates__desc p {
+    width: 40ch;
+}
+
     }
     @media (min-width: 900px){
 
@@ -967,4 +1011,17 @@ margin: auto;
             height: 300px;
         
     }
+    /* about section */
+    .about__desc p {
+        width: 50ch;
+    }
+    .about__image img{
+        width: 500px;
+    }
+    }
+
+    @media (min-width: 1200px){
+        .about__desc p {
+            width: 60ch;
+        }   
     }
