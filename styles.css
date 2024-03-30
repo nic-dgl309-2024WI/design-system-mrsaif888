@@ -865,7 +865,10 @@ margin: auto;
     .service__box a:hover{
         color: var(--clr-accent);
     }
-   
+   /* about section */
+   .about__image img{
+    width: 100%;
+   }
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
@@ -945,6 +948,7 @@ margin: auto;
         height: 200px;
     
 }
+/* about section */
     }
     @media (min-width: 900px){
 
