@@ -835,7 +835,6 @@ margin: auto;
         max-width: 500px;
         width: 300px;
         height: 300px;
-        background-image: url(./images/clusia.webp);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -843,11 +842,29 @@ margin: auto;
         align-items: center;
         margin: 30px 0;
         border-radius: 10px;
+        color: var(--clr-accent);
+        filter: brightness(70%);
     }
-  
+    .service__box h2, .service__box a{
+        filter: drop-shadow(2px 4px 6px --clr-accent);
+    }
+  .planting-tips{
+    background-image: url('./images/planting.jpg');
+  }
+  .deliveries{
+    background-image: url('./images/delivery.jpg');
+  }
+  .maintenance{
+    background-image: url('./images/maintenance.jpg');
+  }
     .service__box a{
-        padding-top: 50px;   
+        padding-top: 50px;  
+        color: var(--clr-primary); 
+        font-weight: var(--fw-bold);
     } 
+    .service__box a:hover{
+        color: var(--clr-accent);
+    }
    
     @media (min-width: 750px){
         /* header */
