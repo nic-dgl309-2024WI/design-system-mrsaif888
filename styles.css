@@ -556,31 +556,7 @@ margin: auto;
       max-width: 1320px;
     }
   }
-  /* hero section */
-  .bg-image{
-   
-    position: relative;
-    height: 400px;
-    text-align: center;
-    padding-top: 50px;
-    
-    z-index: 1;
-  }
-  .bg-image::before{
-    background-image: url('./images/rex-pickar-zUmQH_rI2kg-unsplash.jpg');
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-   
 
-  }
   /* header */
   .top-nav__logo a{
     color: var(--clr-primary);
@@ -701,6 +677,31 @@ margin: auto;
     .top-nav__menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
+      /* hero section */
+  .bg-image{
+   
+    position: relative;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    
+    z-index: 1;
+  }
+  .bg-image::before{
+    background-image: url('./images/rex-pickar-zUmQH_rI2kg-unsplash.jpg');
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+  }
     .hero{
       position: absolute;
     }
