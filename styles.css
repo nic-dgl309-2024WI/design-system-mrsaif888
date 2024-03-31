@@ -558,30 +558,50 @@ margin: auto;
   }
   /* hero section */
   .bg-image{
+   
+    position: relative;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    
+    z-index: 1;
+  }
+  .bg-image::before{
     background-image: url('./images/rex-pickar-zUmQH_rI2kg-unsplash.jpg');
-    height: 380px;
-    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
     background-size: cover;
-    color: var(--clr-primary);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+   
+
   }
   /* header */
   .top-nav__logo a{
     color: var(--clr-primary);
     font-size: var(--fs-large);
   }
+  .top-nav__logo a img{
+    width: 70px;
+    padding-top: 10px;
+  }
   header{
     position: sticky;
     top: 0;
-
+    z-index: 11;
+    background-color: var(--clr-primary-dark);
 }
 .top-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    padding: 1em;
+    padding: 0.5rem;
     color: var(--clr-primary);
     
     
@@ -610,7 +630,7 @@ margin: auto;
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: var(--clr-primary);
     position: absolute;
     height: 4px;
     width: 30px;
@@ -646,6 +666,7 @@ margin: auto;
       width: 100%;
       justify-content: center;
       align-items: center;
+      border-radius: 20px;
     }
     #menu-toggle ~ .top-nav__menu li {
       height: 0;
@@ -670,6 +691,8 @@ margin: auto;
       padding: 0.5em 0;
       width: 100%;
       background-color:var(--clr-secondary) ;
+      border-radius: 20px;
+      margin-bottom: 2px !important ;
     }
     .top-nav__menu li a{
       display: none;
@@ -678,8 +701,12 @@ margin: auto;
     .top-nav__menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
+    .hero{
+      position: absolute;
+    }
     .hero h1{
         max-width: 60ch;
+        color: var(--clr-primary);
     }
     .hero__button{
         padding: 20px 10px;
@@ -1170,14 +1197,14 @@ margin: auto;
     }
     /* about section */
     .about__desc p {
-        width: 50ch;
+        width: 40ch;
     }
     .about__image img{
         width: 500px;
     }
     /* gift-certificates section */
     .gift-certificates p {
-        width: 50ch;
+        width: 40ch;
     }
     .gift-certificates img{
         width: 500px;
@@ -1185,7 +1212,7 @@ margin: auto;
     }
     /* resource section */
     .resources__image p {
-        width: 50ch;
+        width: 40ch;
     }
     .resources__image img{
         width: 700px;
