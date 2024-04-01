@@ -348,7 +348,11 @@ tr{
 .u-carousel__card{
     width: 100%;
 }
-
+/* card */
+.main-card{
+    display: flex;
+    justify-content: space-between;
+}
 /* Responsive */
 @media (min-width: 768px) {
 /* .header{
@@ -419,7 +423,7 @@ display: none;
         display: none;
     }
     .colour-combinations__box{
-        width: 50%;
+        width: 100%;
         padding: 10px 20px;
         border-radius: 10px;
     }
@@ -432,7 +436,7 @@ display: none;
         padding-top: unset;
     }
     .classes__heading-box, .ulitity-classes{
-        width: 50%;
+        width: 100%;
     }
     .spacing h1{
         padding-top: unset;
@@ -447,7 +451,7 @@ display: none;
         display: none;
     }
     .container__classes{
-        width: 50%;
+        width: 100%;
     }
     .about-me-mobile{
         display: none;
