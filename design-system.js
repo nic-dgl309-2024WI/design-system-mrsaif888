@@ -1,5 +1,5 @@
 const wrapper = document.querySelector(".wrapper");
-const carousel = document.querySelector(".carousel");
+const carousel = document.querySelector(".u-carousel");
 const firstCardWidth = carousel.querySelector(".products__card").offsetWidth;
 const arrowBtns = document.querySelectorAll(".wrapper i");
 const carouselChildrens = [...carousel.children];
@@ -54,7 +54,7 @@ const infiniteScroll = () => {
     // If the carousel is at the beginning, scroll to the end
     if(carousel.scrollLeft === 0) {
         carousel.classList.add("no-transition");
-        carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+        carousel.scrollLeft = carousel.scrollWidth - (4 * carousel.offsetWidth);
         carousel.classList.remove("no-transition");
     }
     // If the carousel is at the end, scroll to the beginning

@@ -344,6 +344,10 @@ tr{
   .about-me__intro__list__unordered li{
     list-style: circle;
   }
+/* carousel page */
+.u-carousel__card{
+    width: 100%;
+}
 
 /* Responsive */
 @media (min-width: 768px) {
