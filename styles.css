@@ -408,9 +408,9 @@ margin: auto;
     padding-bottom: 2.5rem;
 }
 /* padding auto  */
-.l-p-auto{
+/* .l-p-auto{
     padding: auto;
-}
+} */
 /* text center  */
 .l-text-center{
     text-align: center;
@@ -926,6 +926,9 @@ margin: auto;
     .service__box img:hover{
       filter: blur(3px);
     }
+    .service__box img{
+      filter: brightness(20%) !important;
+    }
     .service:hover .service-info {
       visibility: visible;
       opacity: 1;
@@ -936,7 +939,7 @@ margin: auto;
       height: 300px;
     }
     .service__box h2, .service__box a{
-        filter: drop-shadow(2px 4px 6px --clr-accent);
+        filter: drop-shadow(2px 4px 6px var(--clr-accent));
     }
     .service-section{
       text-align: -webkit-center;
