@@ -353,6 +353,19 @@ tr{
     display: flex;
     justify-content: space-between;
 }
+.hero-example{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero-example__image{
+    margin-top: 2rem;
+}
+.hero-example__image img{
+    width: 100%;
+}
 /* Responsive */
 @media (min-width: 768px) {
 /* .header{
@@ -461,5 +474,9 @@ display: none;
     }
     .about-me__intro{
         width: 50%;
+    }
+    /* hero section */
+    .hero-example{
+        flex-direction: row;
     }
 }
