@@ -473,7 +473,7 @@ display: none;
         display: flex;
     }
     .about-me__intro{
-        width: 50%;
+        text-align: center;
     }
     /* hero section */
     .hero-example{
