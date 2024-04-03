@@ -1081,6 +1081,16 @@ border-radius: 10px;
   width: 300px;
   height: 300px;
 }
+/* list */
+.u-list-style__none li{
+list-style: none;
+}
+.u-list-style__circle li{
+  list-style: circle;
+}
+.u-list-style__number li{
+  list-style:decimal-leading-zero ;
+}
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
