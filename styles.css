@@ -700,7 +700,7 @@ margin: auto;
     z-index: 1;
   }
   .bg-image::before{
-    background-image: url('./images/rex-pickar-zUmQH_rI2kg-unsplash.jpg');
+    background-image: url('./images/bg-image.jpg');
     content: '';
     position: absolute;
     top: 0;
@@ -927,7 +927,7 @@ margin: auto;
       filter: blur(3px);
     }
     .service__box img{
-      filter: brightness(20%) !important;
+      filter: brightness(60%) !important;
     }
     .service:hover .service-info {
       visibility: visible;
