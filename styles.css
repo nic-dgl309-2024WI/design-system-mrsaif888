@@ -855,6 +855,28 @@ margin: auto;
         scroll-behavior: smooth;
         scrollbar-width: none;
       }
+      /* pagination */
+      /* Add styles for pagination */
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pagination button {
+  background-color: var(--clr-secondary-dark);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.pagination button.active {
+  background-color: var(--clr-primary-dark);
+  
+}
+
     /* products section */
     .products__button-style{
         background-color: var(--clr-secondary);

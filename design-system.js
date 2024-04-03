@@ -83,3 +83,46 @@ carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
+const paginationContainer = document.querySelector(".pagination");
+
+// Function to create pagination buttons
+function createPagination() {
+    const numSlides = carousel.children.length;
+    for (let i = 0; i < numSlides; i++) {
+        const button = document.createElement("button");
+        button.addEventListener("click", () => {
+            goToSlide(i);
+        });
+        paginationContainer.appendChild(button);
+    }
+    setActiveButton(0);
+}
+
+// Function to handle pagination button click
+function goToSlide(index) {
+    const slideWidth = carousel.children[0].offsetWidth;
+    carousel.scrollLeft = index * slideWidth;
+    setActiveButton(index);
+}
+
+// Function to set active pagination button
+function setActiveButton(index) {
+    const buttons = paginationContainer.querySelectorAll("button");
+    buttons.forEach((button, i) => {
+        if (i === index) {
+            button.classList.add("active");
+        } else {
+            button.classList.remove("active");
+        }
+    });
+}
+
+// Call the function to create pagination buttons
+createPagination();
+
+// Add event listener to scroll event to update active pagination button
+carousel.addEventListener("scroll", () => {
+    const slideWidth = carousel.children[0].offsetWidth;
+    const activeIndex = Math.round(carousel.scrollLeft / slideWidth);
+    setActiveButton(activeIndex);
+});
