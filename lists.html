@@ -1,146 +1,156 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- External CSS -->
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./design-system.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header class= "header u-ff-serif">
         <div class= "header__main">
-        <!-- Logo -->
-        <a href= "design-system.html" class= "header__logo u-fs-large u-ff-serif u-u-fw-bolder">Design System</a>
-        <!-- Hamburger icon -->
-        <input class= "header__toggle-menu" type= "checkbox" id= "header__side-menu"/>
-        <label class= "header__hamb" for= "header__side-menu"><span class= "header__hamb-line"></span></label>
-        <!-- Menu -->
-        <nav class= "header__nav">
-            <ul class= "header__menu">
-                <li><a href= "about-me.html">About Me</a></li>
-                <li><a href= "index.html">Demo Site</a> </li>
-    
-            </ul>
-            <ul class= "header__side-menu">
-                <li class= "header__side-menu__list">
-                    <h3 class= " header__side-menu__title u-ff-serif u-fs-medium">Branding </h3></li>
+            <!-- Logo -->
+            <a href= "design-system.html" class= "header__logo u-fs-large u-ff-serif u-u-fw-bolder">Design System</a>
+            <!-- Hamburger icon -->
+            <input class= "header__toggle-menu" type= "checkbox" id= "header__side-menu"/>
+            <label class= "header__hamb" for= "header__side-menu"><span class= "header__hamb-line"></span></label>
+            <!-- Menu -->
+            <nav class= "header__nav">
+                <ul class= "header__menu">
+                    <li><a href= "about-me.html">About Me</a></li>
+                    <li><a href= "index.html">Demo Site</a> </li>
+                </ul>
+                <ul class= "header__side-menu">
+                    <!-- Branding -->
+                    <li class= "header__side-menu__list">
+                        <h3 class= " header__side-menu__title u-ff-serif u-fs-medium">Branding </h3>
+                    </li>
                     <li class= "header__side-menu__item"><a href= "colours.html">01 Color</a></li>
                     <li class= "header__side-menu__item"><a href= "typography.html">02 Typography</a></li>
-                    
-
-                <li class= "header__side-menu__list">
-                    <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Utilities  </h3></li>
+                    <!-- Utilities -->
+                    <li class= "header__side-menu__list">
+                        <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Utilities  </h3>
+                    </li>
                     <li class= "header__side-menu__item "><a href= "spacing.html" >03 Spacing </a></li>
                     <li class= "header__side-menu__item"><a href= "container.html">04 Containers</a></li>
                     <li class= "header__side-menu__item"><a href= "images.html">05 Images </a></li>
                     <li class= "header__side-menu__item"><a href= "interactive.html">06 Interactive </a></li>
-                    
-
-                <li class= "header__side-menu__list">
-                    <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Navigation </h3></li>
+                    <!-- Navigation -->
+                    <li class= "header__side-menu__list">
+                        <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Navigation </h3>
+                    </li>
                     <li class= "header__side-menu__item"><a href= "navbar.html">07 Navbars</a></li>
                     <li class= "header__side-menu__item"><a href= "breadcrumbs.html">08 Breadcrumbs</a></li>
-                    
-
-                <li class= "header__side-menu__list">
-                    <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Blocks </h3></li>
-                   
-                    <li  class= "header__side-menu__item"><a href= "carousel.html">09 Carousel</a></li>
-                    
-                    <li  class= "header__side-menu__item"><a href= "footer.html">10 Footer</a></li>
+                    <!-- Blocks -->
+                    <li class= "header__side-menu__list">
+                        <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Blocks </h3>
+                    </li>
+                    <li class= "header__side-menu__item"><a href= "carousel.html">09 Carousel</a></li>
+                    <li class= "header__side-menu__item"><a href= "footer.html">10 Footer</a></li>
                     <li  class= "header__side-menu__item"><a href= "hero.html">11 Hero</a></li>
-
-
-                <li class= "header__side-menu__list">
-                    <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Components </h3></li>
-                    <li  class= "header__side-menu__item"><a href= "cards.html">12 Cards </a></li>
+                    <!-- Components -->
+                    <li class= "header__side-menu__list">
+                        <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Components </h3>
+                    </li>
+                    <li class= "header__side-menu__item"><a href= "cards.html">12 Cards </a></li>
                     <li class= "header__side-menu__item"><a href= "forms.html">13 Forms </a></li>
                     <li class= "header__side-menu__item"><a href= "accordion.html">14 Accordion</a></li>
                     <li class= "header__side-menu__item"><a href= "lists.html" class="active">15 Lists </a></li>
-
-            </ul>
-    
-        </nav>
-     
-    </div>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="main-container">
-        <!-- side menu -->
+        <!-- Side Menu (duplicate) -->
         <ul class= "header__side-menuu">
+            <!-- Branding -->
             <li class= "header__side-menuu__list">
-                <h3 class= " header__side-menuu__title u-ff-serif u-fs-medium">Branding </h3></li>
-                <li class= "header__side-menuu__item"><a href= "colours.html">01 Color</a></li>
-                <li class= "header__side-menuu__item"><a href= "typography.html">02 Typography</a></li>
-                
-    
+                <h3 class= " header__side-menuu__title u-ff-serif u-fs-medium">Branding </h3>
+            </li>
+            <li class= "header__side-menuu__item"><a href= "colours.html">01 Color</a></li>
+            <li class= "header__side-menuu__item"><a href= "typography.html">02 Typography</a></li>
+            
+            <!-- Utilities -->
             <li class= "header__side-menuu__list">
-                <h3 class= "u-ff-serif u-fs-medium">Utilities  </h3></li>
-                <li class= "header__side-menuu__item"><a href= "spacing.html">03 Spacing </a></li>
-                <li class= "header__side-menuu__item"><a href= "container.html">04 Containers</a></li>
-                <li class= "header__side-menuu__item"><a href= "images.html">05 Images </a></li>
-                <li class= "header__side-menuu__item"><a href= "interactive.html">06 Interactive </a></li>
-                
-    
+                <h3 class= "u-ff-serif u-fs-medium">Utilities  </h3>
+            </li>
+            <li class= "header__side-menuu__item"><a href= "spacing.html">03 Spacing </a></li>
+            <li class= "header__side-menuu__item"><a href= "container.html">04 Containers</a></li>
+            <li class= "header__side-menuu__item"><a href= "images.html">05 Images </a></li>
+            <li class= "header__side-menuu__item"><a href= "interactive.html">06 Interactive </a></li>
+            
+            <!-- Navigation -->
             <li class= "header__side-menuu__list">
-                <h3 class= "u-ff-serif u-fs-medium">Navigation </h3></li>
-                <li class= "header__side-menuu__item"><a href= "navbar.html">07 Navbars</a></li>
-                <li class= "header__side-menuu__item"><a href= "breadcrumbs.html">08 Breadcrumbs</a></li>
-                
-    
+                <h3 class= "u-ff-serif u-fs-medium">Navigation </h3>
+            </li>
+            <li class= "header__side-menuu__item"><a href= "navbar.html">07 Navbars</a></li>
+            <li class= "header__side-menuu__item"><a href= "breadcrumbs.html">08 Breadcrumbs</a></li>
+            
+            <!-- Blocks -->
             <li class= "header__side-menuu__list">
-                <h3 class= "u-ff-serif u-fs-medium">Blocks </h3></li>
-                
-                <li class= "header__side-menuu__item"><a href= "carousel.html">09 Carousel</a></li>
-                <li class= "header__side-menuu__item"><a href= "footer.html">10 Footer</a></li>
-                <li  class= "header__side-menuu__item"><a href= "hero.html">11 Hero</a></li>
+                <h3 class= "u-ff-serif u-fs-medium">Blocks </h3>
+            </li>
+            <li class= "header__side-menuu__item"><a href= "carousel.html">09 Carousel</a></li>
+            <li class= "header__side-menuu__item"><a href= "footer.html
 
-    
+">10 Footer</a></li>
+            <li  class= "header__side-menuu__item"><a href= "hero.html">11 Hero</a></li>
+
+            <!-- Components -->
             <li class= "header__side-menuu__list">
-                <h3 class= "u-ff-serif u-fs-medium">Components </h3></li>
-                <li class= "header__side-menuu__item"><a href= "cards.html">12 Cards </a></li>
-                <li class= "header__side-menuu__item"><a href= "forms.html">13 Forms </a></li>
-                <li class= "header__side-menuu__item"><a href= "accordion.html">14 Accordion</a></li>
-                <li class= "header__side-menuu__item"><a href= "lists.html" class="active">15 Lists </a></li>
-    
+                <h3 class= "u-ff-serif u-fs-medium">Components </h3>
+            </li>
+            <li class= "header__side-menuu__item"><a href= "cards.html">12 Cards </a></li>
+            <li class= "header__side-menuu__item"><a href= "forms.html">13 Forms </a></li>
+            <li class= "header__side-menuu__item"><a href= "accordion.html">14 Accordion</a></li>
+            <li class= "header__side-menuu__item"><a href= "lists.html" class="active">15 Lists </a></li>
         </ul>
-       
-    
-       </div>
-       <div class="margin-padding">
-        <div class="container">
-            <h2 class="l-mt-4 l-mb-4">Lists</h2>
-            <div class="list-style">
-                <div class="u-list-style">
-                    <h3>List Style None</h3>
-                    <ul class="u-list-style__none">
-                        <li>item</li>
-                        <li>item</li>
-                        <li>item</li>
-                        <li>item</li>
-                        <li>item</li>
-                    </ul>
-                    <div class="Utility classes u-fs-xs u-ff-serif">
-                        <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
-                        <div class="Utility classes__heading-box">
-                            <div class="Utility__classes__heading-box--flex">
-                            <h4>HTML</h4>
-                    </div>
-                        
-                    <code>&lt;ul class="u-list-style__none"&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                    &lt;/ul&gt;</code>
-                            
-        
+
+        <!-- Main Content -->
+        <div class="margin-padding">
+            <div class="container">
+                <!-- Lists -->
+                <h2 class="l-mt-4 l-mb-4">Lists</h2>
+                <!-- List Style None -->
+                <div class="list-style">
+                    <div class="u-list-style">
+                        <h3>List Style None</h3>
+                        <ul class="u-list-style__none">
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                        <!-- Code Snippet -->
+                        <div class="Utility classes u-fs-xs u-ff-serif">
+                            <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
+                            <div class="Utility classes__heading-box">
+                                <div class="Utility__classes__heading-box--flex">
+                                    <h4>HTML</h4>
+                                </div>
+                                <code>&lt;ul class="u-list-style__none"&gt;<br>
+                                    &lt;li&gt;item&lt;/li&gt;<br>
+                                    &lt;li&gt;item&lt;/li&gt;<br>
+                                    &lt;li&gt;item&lt;/li&gt;<br>
+                                    &lt;li&gt;item&lt;/li&gt;<br>
+                                    &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;/ul&gt;</code>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- List Style Circle -->
+                <div class="list-style">
                     <h3 class="l-mt-4 l-mb-2">List Style Circle</h3>
                     <ul class="u-list-style__circle">
                         <li>item</li>
@@ -149,25 +159,26 @@
                         <li>item</li>
                         <li>item</li>
                     </ul>
+                    <!-- Code Snippet -->
                     <div class="Utility classes u-fs-xs u-ff-serif">
                         <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
                         <div class="Utility classes__heading-box">
                             <div class="Utility__classes__heading-box--flex">
-                            <h4>HTML</h4>
-                    </div>
-                        
-                    <code>&lt;ul class="u-list-style__circle"&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                    &lt;/ul&gt;</code>
-                            
-        
+                                <h4>HTML</h4>
+                            </div>
+                            <code>&lt;ul class="u-list-style__circle"&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                            &lt;/ul&gt;</code>
+                        </div>
                     </div>
                 </div>
-                <h3 class="l-mt-4 l-mb-2">List Style Number</h3>
+                <!-- List Style Number -->
+                <div class="list-style">
+                    <h3 class="l-mt-4 l-mb-2">List Style Number</h3>
                     <ul class="u-list-style__number">
                         <li>item</li>
                         <li>item</li>
@@ -175,28 +186,28 @@
                         <li>item</li>
                         <li>item</li>
                     </ul>
+                    <!-- Code Snippet -->
                     <div class="Utility classes u-fs-xs u-ff-serif">
                         <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
                         <div class="Utility classes__heading-box">
                             <div class="Utility__classes__heading-box--flex">
-                            <h4>HTML</h4>
+                                <h4>HTML</h4>
+                            </div>
+                            <code>&lt;ul class="u-list-style__number"&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                                &lt;li&gt;item&lt;/li&gt;<br>
+                            &lt;/ul&gt;</code>
+                        </div>
                     </div>
-                        
-                    <code>&lt;ul class="u-list-style__number"&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                        &lt;li&gt;item&lt;/li&gt;<br>
-                    &lt;/ul&gt;</code>
-                            
-        
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
-       </div>
+    </div>
+    <!-- JavaScript -->
     <script src="./design-system.js"></script>
 </body>
 </html>
+```
