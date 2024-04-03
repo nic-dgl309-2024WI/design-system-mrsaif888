@@ -1056,6 +1056,19 @@ border-radius: 10px;
   padding: 0;
   background-color: unset;
 }
+/* images */
+.u-card-image{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.u-logo-image{
+  width: 100px;
+  height: 100px;
+}
+.u-blog-image{
+  width: 300px;
+  height: 300px;
+}
     @media (min-width: 750px){
         /* header */
     #menu-toggle {
