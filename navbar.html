@@ -14,7 +14,7 @@
     <header class= "header u-ff-serif">
         <div class= "header__main">
         <!-- Logo -->
-        <a href= "design-system.html" class= "header__logo u-fs-large u-ff-serif u-u-fw-bolder ">Design System</a>
+        <a href= "design-system.html" class= "header__logo u-fs-large u-ff-serif u-u-fw-bolder">Design System</a>
         <!-- Hamburger icon -->
         <input class= "header__toggle-menu" type= "checkbox" id= "header__side-menu"/>
         <label class= "header__hamb" for= "header__side-menu"><span class= "header__hamb-line"></span></label>
@@ -36,13 +36,13 @@
                     <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Utilities  </h3></li>
                     <li class= "header__side-menu__item "><a href= "spacing.html" >03 Spacing </a></li>
                     <li class= "header__side-menu__item"><a href= "container.html">04 Containers</a></li>
-                    <li class= "header__side-menu__item"><a href= "images.html">05 Images </a></li>
-                    <li class= "header__side-menu__item"><a href= "interactive.html" class="active">06 Interactive </a></li>
+                    <li class= "header__side-menu__item"><a href= "">05 Images </a></li>
+                    <li class= "header__side-menu__item"><a href= "">06 Interactive </a></li>
                     
 
                 <li class= "header__side-menu__list">
                     <h3 class= "header__side-menu__title u-ff-serif u-fs-medium">Navigation </h3></li>
-                    <li class= "header__side-menu__item"><a href= "">07 Navbars</a></li>
+                    <li class= "header__side-menu__item"><a href= "navbar.html" class="active">07 Navbars</a></li>
                     <li class= "header__side-menu__item"><a href= "">08 Breadcrumbs</a></li>
                     
 
@@ -79,13 +79,13 @@
                 <h3 class= "u-ff-serif u-fs-medium">Utilities  </h3></li>
                 <li class= "header__side-menuu__item"><a href= "spacing.html">03 Spacing </a></li>
                 <li class= "header__side-menuu__item"><a href= "container.html">04 Containers</a></li>
-                <li class= "header__side-menuu__item"><a href= "images.html">05 Images </a></li>
-                <li class= "header__side-menuu__item"><a href= "interactive.html" class="active">06 Interactive </a></li>
+                <li class= "header__side-menuu__item"><a href= "">05 Images </a></li>
+                <li class= "header__side-menuu__item"><a href= "">06 Interactive </a></li>
                 
     
             <li class= "header__side-menuu__list">
                 <h3 class= "u-ff-serif u-fs-medium">Navigation </h3></li>
-                <li class= "header__side-menuu__item"><a href= "">07 Navbars</a></li>
+                <li class= "header__side-menuu__item"><a href= "navbar.html" class="active">07 Navbars</a></li>
                 <li class= "header__side-menuu__item"><a href= "">08 Breadcrumbs</a></li>
                 
     
@@ -103,68 +103,95 @@
                 <li class= "header__side-menuu__item"><a href= "">14 Lists </a></li>
     
         </ul>
-       <div class="margin-padding">
-        <div class="container">
-            <div class="button-examples">
-            <h2 class="l-mt-4 l-mb-4">Interactive</h2>
-            <h3 class="l-mb-1">Button 1</h3>
-            <div class="button-examples__button">
-                <a href="#" class="u-button-primary products__button-style  l-mt-2 ">Button 1</a>
+        <div class="margin-padding">
+            <div class="container">
+                <h2 class=" l-mt-4 l-mb-4">Navigation Bar</h2>
+        <div class="u-header">
+            <section class="top-nav">
+                <div class="top-nav__logo">
+                  <a href="./index.html">LOGO</a> 
                 </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+              </label>
+                <ul class="top-nav__menu u-fs-sm">
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                  <li class="top-nav__menu__list"><a href="#">Link</a></li>
+                </ul>
+              </section>
             </div>
             <div class="Utility classes u-fs-xs u-ff-serif">
-                <h2 class="l-my-4">Code Snippet</h2>
+                <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
                 <div class="Utility classes__heading-box">
                     <div class="Utility__classes__heading-box--flex">
                     <h4>HTML</h4>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
             </div>
                 
-            <p><code>&lt;div class="button-examples__button"&gt;<br>    &lt;a href="#" class="u-button-primary products__button-style l-mt-2"&gt;Button 1&lt;/a&gt;<br>&lt;/div&gt;</code></p>
-
-
+            <code>&lt;div class="u-header"&gt;<br>
+                &lt;section class="top-nav"&gt;<br>
+                    &lt;div class="top-nav__logo"&gt;<br>
+                        &lt;a href="./index.html"&gt;LOGO&lt;/a&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;input id="menu-toggle" type="checkbox" /&gt;<br>
+                    &lt;label class='menu-button-container' for="menu-toggle"&gt;<br>
+                        &lt;div class='menu-button'&gt;&lt;/div&gt;<br>
+                    &lt;/label&gt;<br>
+                    &lt;ul class="top-nav__menu u-fs-sm"&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;li class="top-nav__menu__list"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                &lt;/section&gt;<br>
+            &lt;/div&gt;<br></code>
+            
+    
+    
             </div>
         </div>
-        
-        <div class="button-exapmles">
-            <h3 class="l-mb-1 l-mt-5">Button 2</h3>
-            <div class="button-examples__button">
-                <a href="#" class="u-button-secondary products__button-style button-examples__second  l-mt-2 ">Button 2</a>
-                </div>
-            </div>
-            <div class="Utility classes u-fs-xs u-ff-serif">
-                <h2 class="l-my-4">Code Snippet</h2>
-                <div class="Utility classes__heading-box">
-                    <div class="Utility__classes__heading-box--flex">
-                    <h4>HTML</h4>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
-            </div>
-                
-            <p><code>&lt;div class="button-examples__button"&gt;<br>    &lt;a href="#" class="u-button-secondary products__button-style l-mt-2"&gt;Button 1&lt;/a&gt;<br>&lt;/div&gt;</code></p>
-
-
-            </div>
-        </div>
-        <div class="page-links">
-            <h2 class="l-mt-5 l-mb-2"> Cta Links Example</h2>
-            <a href="#" class="u-link">Learn More</a>
+        <div class="side-nav__example">
+            <h3 class="l-mt-4 l-mb-2">Side NavBar</h3>
+            <ul class="side-nav__example__list">
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
         </div>
         <div class="Utility classes u-fs-xs u-ff-serif">
-            <h2 class="l-my-4">Code Snippet</h2>
+            <h2 class="l-mt-4 l-mb-1">Code Snippet</h2>
             <div class="Utility classes__heading-box">
                 <div class="Utility__classes__heading-box--flex">
                 <h4>HTML</h4>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M384 336H192c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16l140.1 0L400 115.9V320c0 8.8-7.2 16-16 16zM192 384H384c35.3 0 64-28.7 64-64V115.9c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1H192c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H256c35.3 0 64-28.7 64-64V416H272v32c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192c0-8.8 7.2-16 16-16H96V128H64z"/></svg>
         </div>
             
-        <p><code>&lt;div class="page-links"&gt;<br>    &lt;h2 class="l-mt-5 l-mb-2"&gt; Cta Links Example&lt;/h2&gt;<br>    &lt;a href="#" class="u-link"&gt;Learn More&lt;/a&gt;<br>&lt;/div&gt;</code></p>
+        <code>&lt;div class="side-nav__example"&gt;<br>
+            &lt;h3 class="l-mt-4 l-mb-2"&gt;Side NavBar&lt;/h3&gt;<br>
+            &lt;ul class="side-nav__example__list"&gt;<br>
+                &lt;li&gt;&lt;a href=""&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                &lt;li&gt;&lt;a href=""&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                &lt;li&gt;&lt;a href=""&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                &lt;li&gt;&lt;a href=""&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+                &lt;li&gt;&lt;a href=""&gt;Link&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+        &lt;/div&gt;<br></code>
+        
 
 
         </div>
     </div>
-       </div>
-    </div>
-    
+            </div>
+        </div>
        </div>
     <script src="./design-system.js"></script>
 </body>

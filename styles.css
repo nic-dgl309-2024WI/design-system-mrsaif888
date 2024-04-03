@@ -572,6 +572,18 @@ margin: auto;
     z-index: 11;
     background-color: var(--clr-primary-dark);
 }
+.u-header{
+  background-color: var(--clr-primary-dark);
+}
+.side-nav__example__list{
+  width: 300px;
+  background-color: var(--clr-primary-dark);
+  color: var(--clr-primary);
+  padding: 20px;
+}
+.side-nav__example li a{
+  color: var(--clr-primary);
+}
 .top-nav{
     display: flex;
     align-items: center;
