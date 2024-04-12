@@ -967,7 +967,7 @@ margin: auto;
    /* about section */
    .about__image img{
     width: 100%;
-    box-shadow: 0 1px 50px var(--clr-primary-dark);
+   
 }
 
 
@@ -977,7 +977,6 @@ margin: auto;
   /* gift-certificates section */
   .gift-certificates__image img{
     width: 100%;
-    box-shadow: 0 1px 50px var(--clr-primary-dark);
    }
  
 
@@ -1269,7 +1268,6 @@ list-style: none;
 /* gift-certificates section */
 .gift-certificates{
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
