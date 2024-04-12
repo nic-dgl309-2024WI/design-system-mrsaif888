@@ -1200,8 +1200,11 @@ list-style: none;
       .hero h1{
         width:17ch;
         font-size: 4rem;
-        line-height: 3.1rem;
+        line-height: 4rem;
     }
+    .mobile-only {
+    display: none;
+}
     .hero__button{
         display: inline-block;
         margin-top: 2.5rem;
