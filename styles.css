@@ -1079,7 +1079,7 @@ margin: auto;
   
 .submit-footer{
   padding: 10px 20px !important;
-  background-color: var(--clr-accent);
+  background-color: var(--clr-primary);
   margin-top: 0.5rem !important;
 
 }
