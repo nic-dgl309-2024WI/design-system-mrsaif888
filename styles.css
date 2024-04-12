@@ -1279,6 +1279,10 @@ list-style: none;
 .gift-certificates__desc p {
     width: 40ch;
 }
+/* accordion section */
+.c-accordion{
+  width: 50%;
+}
 /* resource section */
 .resources{
     display: flex;
