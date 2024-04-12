@@ -1008,14 +1008,13 @@ margin: auto;
     overflow: hidden;
   }
   .c-accordion__item{
-    border: 1px solid var(--clr-primary);
+    border: 1px solid var(--clr-primary-dark);
     background-color: var(--clr-secondary);
   }
   .c-accordion__item__label,
   .c-accordion__item__close {
     display: flex;
-    color: white;
-    background: var(--clr-primary-dark);
+    border: var(--clr-primary-dark);
     cursor: pointer;
   }
   .c-accordion__item__label {
