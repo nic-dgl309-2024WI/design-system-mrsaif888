@@ -741,7 +741,7 @@ margin: auto;
     }
 
     /* cards */
-    .u-card{
+    .c-card{
         width: 18rem;
         border: 1px solid var(--clr-secondary);
         border-radius: 8px;
@@ -749,19 +749,19 @@ margin: auto;
         margin-bottom: 20px;
         background-color: var(--clr-secondary);
     }
-    .u-card-img-top{
+    .c-card-img-top{
         width: 100%;
         height: 35vh;
         background-size: cover;
     }
-    .u-card-body{
+    .c-card-body{
         padding: 20px;
     }
-    .u-card-title{
+    .c-card-title{
         font-size: 1.25rem;
         margin-bottom: 10px;
     }
-    .u-card-text{
+    .c-card-text{
         font-size: 1rem;
         color: var(--clr-primary-dark);
     }
@@ -1125,7 +1125,7 @@ border-radius: 10px;
   background-color: unset;
 }
 /* images */
-.u-card-image{
+.c-card-image{
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
