@@ -40,7 +40,9 @@ body,h1,h2,h3,h4,h5,p,picture,figure{
 h1,h2,h3,h4,h5{
     /* font-family: var(--ff-libre); */
 }
-
+h2{
+  font-size: var(--fs-large);
+}
 ul, li{
     margin: 0;
     padding: 0;
