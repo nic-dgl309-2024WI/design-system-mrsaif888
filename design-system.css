@@ -366,6 +366,10 @@ tr{
 .hero-example__image img{
     width: 100%;
 }
+/* design-system page */
+.ordered-list li{
+    list-style: decimal;
+}
 /* Responsive */
 @media (min-width: 768px) {
 /* .header{
