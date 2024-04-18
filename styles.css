@@ -866,7 +866,7 @@ margin: auto;
 }
 
 .pagination button {
-  background-color: var(--clr-secondary-dark);
+  background-color: var(--clr-secondary);
   border: none;
   border-radius: 5px;
   cursor: pointer;
